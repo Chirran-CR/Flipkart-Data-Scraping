@@ -10,8 +10,8 @@ const authMiddleware = tryCatch(async (req, res, next) => {
     try {
       if (token) {
         const decoded = jwt.verify(token, process.env.JWT_SECRET);
-        const user = await User.findById(decoded?.id);
-        req.user = user;
+        const user = await User.find({email:decoded.email});
+        req.user = user[0];
         next();
       }
     } catch (error) {

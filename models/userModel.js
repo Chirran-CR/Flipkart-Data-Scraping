@@ -26,18 +26,18 @@ var userSchema = new mongoose.Schema(
             // required:true,
         },
         price:{
-            type:Number,
+            type:String,
             // required:true,
         },
         description:{
             type:String,
             default:""
         },
-        noOfReviews:{
-            type:Number
+        noOfRatingsAndReviews:{
+            type:String
         },
         ratings:{
-            type:Number
+            type:String
         },
         mediaCount:{
             type:Number

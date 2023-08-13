@@ -9,6 +9,6 @@ router.post("/login",userController.loginUser);
 
 
 router.post("/scrapedata",authMiddleware, userController.addScrapedData);
-router.get("/scrapedata",authMiddleware, userController.getScrapedData);
+router.post("/getscrapedata",authMiddleware, userController.getScrapedData);
 
 module.exports = router;
