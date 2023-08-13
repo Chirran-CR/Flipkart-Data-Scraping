@@ -14,3 +14,9 @@ listOfAPIs:{
             "get scraped data(post)": "user/scrapedata =>`to get the already stored scraped data from DB`"
 }
 ```
+
+## Deployed Link:-
+
+```
+https://crs-flipkart-scaping.onrender.com
+```
