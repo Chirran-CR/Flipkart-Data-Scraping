@@ -28,7 +28,7 @@ app.use("/",(req,res)=>{
             "createAUser(post)": "user/register =>`to register a new user`",
             "login User(post)": "user/login =>`to login a user`",
             "scrape flipkart data(post)": "user/scrapedata =>`to scrape the data and store it into DB`",
-            "get scraped data(get)": "user/scrapedata =>`to get the already stored scraped data from DB`"
+            "get scraped data(post)": "user/scrapedata =>`to get the already stored scraped data from DB`"
         }
     })
 })
