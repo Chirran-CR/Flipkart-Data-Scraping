@@ -20,3 +20,17 @@ listOfAPIs:{
 ```
 https://crs-flipkart-scaping.onrender.com
 ```
+
+## Screenshot of the project:-
+
+![image-1](screenshots/1.png)
+![image-1](screenshots/2.png)
+![image-1](screenshots/3.png)
+![image-1](screenshots/4.png)
+![image-1](screenshots/5.png)
+![image-1](screenshots/6.png)
+![image-1](screenshots/7.png)
+![image-1](screenshots/8.png)
+![image-1](screenshots/9.png)
+![image-1](screenshots/10.png)
+![image-1](screenshots/11.png)
