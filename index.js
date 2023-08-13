@@ -2,6 +2,7 @@ const express = require("express");
 const dotenv = require("dotenv");
 const cookieParser = require("cookie-parser");
 
+const userRouter = require("./routes/userRouter.js");
 const { notFound, errorHandler } = require("./controllers/errorController.js");
 const dbConnect = require("./config/dbConnect.js");
 
@@ -19,6 +20,7 @@ app.use(cookieParser());
 const PORT = process.env.PORT || 8080;
 
 //api
+app.use("/user",userRouter);
 app.use("/",(req,res)=>{
     res.send({
         message:"Welcome to the API to scrape flipkart data",
